@@ -1,0 +1,23 @@
+{
+  "name": "FlyingSpaghettiMonster-webserver-2",
+  "normal": {
+    "tags": [
+      "your-webserver"
+    ],
+    "chef_provisioning": {
+      "reference": {
+        "driver_version": "1.2.1",
+        "allocated_at": "2015-11-03 22:03:30 UTC",
+        "host_node": "chefzero://localhost:8889/nodes/",
+        "image_id": "ami-bf5021d6",
+        "instance_id": "i-b047ba67",
+        "key_name": "FlyingSpaghettiMonster-key",
+        "ssh_username": "root"
+      },
+      "driver_url": "aws::us-east-1"
+    }
+  },
+  "run_list": [
+    "recipe[webserver]"
+  ]
+}
