@@ -197,9 +197,8 @@
           },
           "state": "up",
           "arp": {
-            "169.254.169.254": "0a:9b:5e:c8:e9:b6",
-            "172.31.23.2": "0a:8b:11:6c:cc:7f",
             "172.31.16.1": "0a:9b:5e:c8:e9:b6",
+            "172.31.23.2": "0a:8b:11:6c:cc:7f",
             "172.31.21.178": "0a:8e:cb:37:d4:f3"
           },
           "routes": [
@@ -238,15 +237,15 @@
         "interfaces": {
           "lo": {
             "rx": {
-              "bytes": "663744",
-              "packets": "532",
+              "bytes": "850159",
+              "packets": "644",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
             },
             "tx": {
-              "bytes": "663744",
-              "packets": "532",
+              "bytes": "850159",
+              "packets": "644",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
@@ -256,16 +255,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "1091845",
-              "packets": "12934",
+              "bytes": "1182719",
+              "packets": "13525",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "56330906",
-              "packets": "40515",
+              "bytes": "56552467",
+              "packets": "41260",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -284,23 +283,23 @@
         "free": "0kB"
       },
       "total": "604680kB",
-      "free": "139568kB",
-      "buffers": "19356kB",
-      "cached": "241340kB",
-      "active": "201240kB",
-      "inactive": "162072kB",
-      "dirty": "44kB",
+      "free": "139196kB",
+      "buffers": "19476kB",
+      "cached": "241376kB",
+      "active": "201476kB",
+      "inactive": "162196kB",
+      "dirty": "48kB",
       "writeback": "0kB",
-      "anon_pages": "102644kB",
-      "mapped": "11064kB",
-      "slab": "82756kB",
+      "anon_pages": "102872kB",
+      "mapped": "11048kB",
+      "slab": "82744kB",
       "slab_reclaimable": "34316kB",
-      "slab_unreclaim": "48440kB",
-      "page_tables": "7796kB",
+      "slab_unreclaim": "48428kB",
+      "page_tables": "7824kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "302340kB",
-      "committed_as": "250340kB",
+      "committed_as": "250848kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "5208kB",
       "vmalloc_chunk": "34359732976kB"
@@ -308,13 +307,13 @@
     "filesystem": {
       "/dev/xvde": {
         "kb_size": "8256952",
-        "kb_used": "873476",
-        "kb_available": "6964048",
+        "kb_used": "873512",
+        "kb_available": "6964012",
         "percent_used": "12%",
         "mount": "/",
         "total_inodes": "524288",
-        "inodes_used": "32373",
-        "inodes_available": "491915",
+        "inodes_used": "32374",
+        "inodes_available": "491914",
         "inodes_percent_used": "7%",
         "fs_type": "ext4",
         "mount_options": [
@@ -672,12 +671,12 @@
       "by_device": {
         "/dev/xvde": {
           "kb_size": "8256952",
-          "kb_used": "873476",
-          "kb_available": "6964048",
+          "kb_used": "873512",
+          "kb_available": "6964012",
           "percent_used": "12%",
           "total_inodes": "524288",
-          "inodes_used": "32373",
-          "inodes_available": "491915",
+          "inodes_used": "32374",
+          "inodes_available": "491914",
           "inodes_percent_used": "7%",
           "fs_type": "ext4",
           "mount_options": [
@@ -783,12 +782,12 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "8256952",
-          "kb_used": "873476",
-          "kb_available": "6964048",
+          "kb_used": "873512",
+          "kb_available": "6964012",
           "percent_used": "12%",
           "total_inodes": "524288",
-          "inodes_used": "32373",
-          "inodes_available": "491915",
+          "inodes_used": "32374",
+          "inodes_available": "491914",
           "inodes_percent_used": "7%",
           "fs_type": "rootfs",
           "mount_options": [
@@ -895,13 +894,13 @@
         "/dev/xvde,/": {
           "device": "/dev/xvde",
           "kb_size": "8256952",
-          "kb_used": "873476",
-          "kb_available": "6964048",
+          "kb_used": "873512",
+          "kb_available": "6964012",
           "percent_used": "12%",
           "mount": "/",
           "total_inodes": "524288",
-          "inodes_used": "32373",
-          "inodes_available": "491915",
+          "inodes_used": "32374",
+          "inodes_available": "491914",
           "inodes_percent_used": "7%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1018,10 +1017,10 @@
     "command": {
       "ps": "ps -ef"
     },
-    "uptime_seconds": 1545,
-    "uptime": "25 minutes 45 seconds",
-    "idletime_seconds": 2870,
-    "idletime": "47 minutes 50 seconds",
+    "uptime_seconds": 2001,
+    "uptime": "33 minutes 21 seconds",
+    "idletime_seconds": 3762,
+    "idletime": "1 hours 02 minutes 42 seconds",
     "cloud_v2": {
       "public_ipv4_addrs": [
         "52.91.249.117"
@@ -1415,7 +1414,7 @@
       "local_hostname": "ip-172-31-24-173.ec2.internal",
       "provider": "ec2"
     },
-    "ohai_time": 1446589883.8638337,
+    "ohai_time": 1446590339.9501102,
     "recipes": [
       "webserver",
       "webserver::default"
