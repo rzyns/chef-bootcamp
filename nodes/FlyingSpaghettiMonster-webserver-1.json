@@ -27,23 +27,7 @@
       "modules": {
         "ipt_REJECT": {
           "size": "2351",
-          "refcount": "2"
-        },
-        "nf_conntrack_ipv4": {
-          "size": "9506",
-          "refcount": "2"
-        },
-        "nf_defrag_ipv4": {
-          "size": "1483",
-          "refcount": "1"
-        },
-        "iptable_filter": {
-          "size": "2793",
-          "refcount": "1"
-        },
-        "ip_tables": {
-          "size": "17831",
-          "refcount": "1"
+          "refcount": "0"
         },
         "ip6t_REJECT": {
           "size": "4628",
@@ -59,11 +43,11 @@
         },
         "xt_state": {
           "size": "1492",
-          "refcount": "4"
+          "refcount": "2"
         },
         "nf_conntrack": {
           "size": "79357",
-          "refcount": "3"
+          "refcount": "2"
         },
         "ip6table_filter": {
           "size": "2889",
@@ -75,7 +59,7 @@
         },
         "ipv6": {
           "size": "321422",
-          "refcount": "15"
+          "refcount": "35"
         },
         "dm_mod": {
           "size": "82839",
@@ -213,8 +197,10 @@
           },
           "state": "up",
           "arp": {
-            "169.254.169.254": "0a:9b:5e:c8:e9:b6",
-            "172.31.16.1": "0a:9b:5e:c8:e9:b6"
+            "172.31.23.2": "0a:8b:11:6c:cc:7f",
+            "172.31.16.1": "0a:9b:5e:c8:e9:b6",
+            "172.31.21.178": "0a:8e:cb:37:d4:f3",
+            "169.254.169.254": "0a:9b:5e:c8:e9:b6"
           },
           "routes": [
             {
@@ -252,15 +238,15 @@
         "interfaces": {
           "lo": {
             "rx": {
-              "bytes": "0",
-              "packets": "0",
+              "bytes": "663619",
+              "packets": "532",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
             },
             "tx": {
-              "bytes": "0",
-              "packets": "0",
+              "bytes": "663619",
+              "packets": "532",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
@@ -270,16 +256,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "861178",
-              "packets": "15367",
+              "bytes": "1558156",
+              "packets": "21893",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "44783782",
-              "packets": "30822",
+              "bytes": "56152722",
+              "packets": "40561",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -298,23 +284,23 @@
         "free": "0kB"
       },
       "total": "604680kB",
-      "free": "161148kB",
-      "buffers": "18980kB",
-      "cached": "229880kB",
-      "active": "137228kB",
-      "inactive": "208636kB",
-      "dirty": "5584kB",
+      "free": "141148kB",
+      "buffers": "19376kB",
+      "cached": "239136kB",
+      "active": "201976kB",
+      "inactive": "159492kB",
+      "dirty": "44kB",
       "writeback": "0kB",
-      "anon_pages": "97052kB",
-      "mapped": "9152kB",
-      "slab": "84656kB",
-      "slab_reclaimable": "37780kB",
-      "slab_unreclaim": "46876kB",
-      "page_tables": "1952kB",
+      "anon_pages": "102936kB",
+      "mapped": "10924kB",
+      "slab": "82560kB",
+      "slab_reclaimable": "34016kB",
+      "slab_unreclaim": "48544kB",
+      "page_tables": "7996kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "302340kB",
-      "committed_as": "206676kB",
+      "committed_as": "252892kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "5208kB",
       "vmalloc_chunk": "34359732976kB"
@@ -322,13 +308,13 @@
     "filesystem": {
       "/dev/xvde": {
         "kb_size": "8256952",
-        "kb_used": "834300",
-        "kb_available": "7003224",
-        "percent_used": "11%",
+        "kb_used": "873480",
+        "kb_available": "6964044",
+        "percent_used": "12%",
         "mount": "/",
         "total_inodes": "524288",
-        "inodes_used": "31870",
-        "inodes_available": "492418",
+        "inodes_used": "32373",
+        "inodes_available": "491915",
         "inodes_percent_used": "7%",
         "fs_type": "ext4",
         "mount_options": [
@@ -686,12 +672,12 @@
       "by_device": {
         "/dev/xvde": {
           "kb_size": "8256952",
-          "kb_used": "834300",
-          "kb_available": "7003224",
-          "percent_used": "11%",
+          "kb_used": "873480",
+          "kb_available": "6964044",
+          "percent_used": "12%",
           "total_inodes": "524288",
-          "inodes_used": "31870",
-          "inodes_available": "492418",
+          "inodes_used": "32373",
+          "inodes_available": "491915",
           "inodes_percent_used": "7%",
           "fs_type": "ext4",
           "mount_options": [
@@ -797,12 +783,12 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "8256952",
-          "kb_used": "834300",
-          "kb_available": "7003224",
-          "percent_used": "11%",
+          "kb_used": "873480",
+          "kb_available": "6964044",
+          "percent_used": "12%",
           "total_inodes": "524288",
-          "inodes_used": "31870",
-          "inodes_available": "492418",
+          "inodes_used": "32373",
+          "inodes_available": "491915",
           "inodes_percent_used": "7%",
           "fs_type": "rootfs",
           "mount_options": [
@@ -909,13 +895,13 @@
         "/dev/xvde,/": {
           "device": "/dev/xvde",
           "kb_size": "8256952",
-          "kb_used": "834300",
-          "kb_available": "7003224",
-          "percent_used": "11%",
+          "kb_used": "873480",
+          "kb_available": "6964044",
+          "percent_used": "12%",
           "mount": "/",
           "total_inodes": "524288",
-          "inodes_used": "31870",
-          "inodes_available": "492418",
+          "inodes_used": "32373",
+          "inodes_available": "491915",
           "inodes_percent_used": "7%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1032,10 +1018,10 @@
     "command": {
       "ps": "ps -ef"
     },
-    "uptime_seconds": 60,
-    "uptime": "1 minutes 00 seconds",
-    "idletime_seconds": 29,
-    "idletime": "29 seconds",
+    "uptime_seconds": 1541,
+    "uptime": "25 minutes 41 seconds",
+    "idletime_seconds": 2857,
+    "idletime": "47 minutes 37 seconds",
     "cloud_v2": {
       "public_ipv4_addrs": [
         "54.152.235.214"
@@ -1187,6 +1173,13 @@
           "uid": 74,
           "shell": "/sbin/nologin",
           "gecos": "Privilege-separated SSH"
+        },
+        "apache": {
+          "dir": "/var/www",
+          "gid": 48,
+          "uid": 48,
+          "shell": "/sbin/nologin",
+          "gecos": "Apache"
         }
       },
       "group": {
@@ -1398,6 +1391,12 @@
           "members": [
 
           ]
+        },
+        "apache": {
+          "gid": 48,
+          "members": [
+
+          ]
         }
       }
     },
@@ -1416,7 +1415,7 @@
       "local_hostname": "ip-172-31-18-78.ec2.internal",
       "provider": "ec2"
     },
-    "ohai_time": 1446588402.7247517,
+    "ohai_time": 1446589883.6111948,
     "recipes": [
       "webserver",
       "webserver::default"

@@ -45,7 +45,7 @@ with_driver "aws::us-east-1" do
     end
   end
 
-  load_balancer "#{name}-webserver-lb" do
+  load_balancer "#{name}-lb" do
     machines webservers
     load_balancer_options({
       :security_groups => "#{name}-http"

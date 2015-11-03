@@ -1,10 +1,18 @@
+
+<div style="width: 350px; margin-left: auto; margin-right: auto;">
 <marquee>
   <blink>
     <h2><center><%= node.name %>.yourmom.com</center></h2>
     <h3><center><em>twice as fast as your ass!!</em></center></h3>
   </blink>
 </marquee>
+</div>
 
+<center><pre>
+<% @webservers.each do |server| %>
+  <%= server.name %>
+<% end %>
+</pre></center>
 <center><pre>
 <%= `netstat -rn` %>
 </pre></center>

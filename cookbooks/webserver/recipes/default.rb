@@ -8,6 +8,9 @@ package "httpd"
 
 template "/var/www/html/index.html" do
   source "index_html.erb"
+  variables({
+    :webservers => search(:node, "tags:your-webserver AND NOT name:#{node.name}")
+  })
 end
 
 service "httpd" do

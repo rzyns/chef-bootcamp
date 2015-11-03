@@ -1,0 +1,8 @@
+{
+  "id": "FlyingSpaghettiMonster-lb",
+  "reference": {
+    "driver_version": "1.2.1",
+    "allocated_at": "2015-11-03 22:21:15 UTC"
+  },
+  "driver_url": "aws::us-east-1"
+}
